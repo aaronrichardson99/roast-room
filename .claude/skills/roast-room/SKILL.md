@@ -1,7 +1,7 @@
 ---
 name: roast-room
-description: Use when a founder wants a hard business decision debated by a council of world-class operators, says "roast room", "put this in the Roast Room", "founder council", "convene the council", "take this to the board", "what would Hormozi, Bezos, or Buffett say", "should I do X", or can't make up their mind on pricing, hiring, raising money, a new product, a partnership, a pivot, an event, or spending. A board of sub-agents, each built from one expert's public work (Bezos, Paul Graham, Hormozi, Gary Vaynerchuk, Dan Martell, Gino Wickman, and Buffett out of the box, plus any seat added with /newroaster), argue it over three rounds, then a Chair returns a scored verdict, the reasoning, the dissent, and next steps. Also does a one-seat consult ("ask the Hormozi seat"). Not /roast (generic personas, idea validation).
-argument-hint: "[the decision] [--quick] [--all] [--board fitness] [--seats hormozi,buffett,...] | ask <seat> [question] | board"
+description: Use when a founder wants a hard business decision debated by a council of world-class operators, says "roast room", "put this in the Roast Room", "founder council", "convene the council", "take this to the board", "what would Hormozi, Bezos, or Buffett say", "should I do X", or can't make up their mind on pricing, hiring, raising money, a new product, a partnership, a pivot, an event, or spending. A board of sub-agents, each built from one expert's public work (Bezos, Paul Graham, Hormozi, Gary Vaynerchuk, Dan Martell, Gino Wickman, and Buffett out of the box, plus any seat added with /newroaster), argue it over three rounds, then a Chair returns a scored verdict, the reasoning, the dissent, and next steps. Also does a one-seat consult ("ask the Hormozi seat") and build mode, where the board makes something together, such as a training program, a nutrition plan, or an offer ("/roast-room build", "have the board build me a program"). Not /roast (generic personas, idea validation).
+argument-hint: "[the decision] [--quick] [--all] [--board fitness] [--seats hormozi,buffett,...] | ask <seat> [question] | build [what] | board"
 ---
 
 ## What this does
@@ -18,6 +18,7 @@ Read once before the first run: `roster.json` (every seat and the default board)
 - **Named board** (`--board <name>`): the Chair recommends the council from that board's seats only (see "Named boards"). Three rounds.
 - **Everyone** (`--all`): every seat in `roster.json`, up to nine.
 - **Consult** (`ask <seat> ...`): one seat, one answer, using the single-seat prompt. No scoring, no session folder needed. Works for any seat in the roster.
+- **Build** (`build ...`): the board makes something together instead of deciding: a training program, a nutrition plan, an offer, a launch plan. One seat sets the structure, the best-fit seats write a section each, every seat critiques the draft, and the Chair merges the fixes into `program.md`. Follow `references/build-mode.md` instead of Steps 1 to 7 below. Seats are picked the same way (see "Pick the board").
 - **Board settings** (`board`): show and change who sits at the table by default. See "Board settings" below. No council runs.
 
 ## Pick the board

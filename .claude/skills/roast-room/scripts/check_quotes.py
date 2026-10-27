@@ -5,7 +5,7 @@ Check every quoted line in a council session against the seats' brains.
 Usage:
   python .claude/skills/roast-room/scripts/check_quotes.py <session folder>
 
-Scans round-*.md and verdict.md for quotes attributed to a source id, like "..." (S095), and looks
+Scans round-*.md, verdict.md, and (for build mode) program.md and build-notes.md for quotes attributed to a source id, like "..." (S095), and looks
 for each in the brain files. A quote that is in no brain is either a quote of
 another seat or the founder (fine if it appears in an earlier round file of the
 same session) or an invented quote (flag it and remove it from the verdict).
@@ -27,7 +27,7 @@ def norm(s):
 def main():
     session = Path(sys.argv[1])
     brain_text = norm(" ".join(p.read_text(encoding="utf-8", errors="replace") for p in BRAINS.rglob("*.md")))
-    session_files = sorted(session.glob("round-*.md")) + [p for p in [session / "verdict.md"] if p.exists()]
+    session_files = sorted(session.glob("round-*.md")) + [p for p in [session / n for n in ("verdict.md", "program.md", "build-notes.md")] if p.exists()]
     brief = norm((session / "brief.md").read_text(encoding="utf-8")) if (session / "brief.md").exists() else ""
     bad, ok, internal = [], 0, 0
     seen_session = ""

@@ -112,6 +112,17 @@ You don't need to edit the file by hand. Type `/roast-room board` and say what y
 
 Skip the question on any run: `--seats hormozi,naval,buffett` seats exactly those advisors, and `--all` seats everyone (up to nine). `--quick` recommends four.
 
+## Build mode: the board makes something together
+
+A council decides. Build mode makes. Type `/roast-room build` and what you need, for example `/roast-room build a 12-week hypertrophy program for a client who trains 4 days a week`. The Chair asks for the details that matter (goal, experience, days, time, equipment, injuries), then:
+
+1. One advisor lays out the structure (the split, the weeks, the progression model).
+2. The best-fit advisors each write one section (volume and recovery, exercise selection, progression, nutrition, adherence).
+3. Every advisor attacks the draft from their own lens, with concrete changes marked must, should, or could.
+4. The Chair merges the fixes, and every advisor signs off or says why not.
+
+You get `program.md` (the finished program, with day-by-day tables, progression rules, deloads, and why each choice was made, with the advisor and source) and `build-notes.md` (who built what, every change and who asked for it, and any dissent). It works for any deliverable: a nutrition plan, a client check-in system, an offer, a launch plan.
+
 ## Add your own advisor
 
 ```
