@@ -95,6 +95,7 @@ How the board gets picked is a setting in `.claude/skills/roast-room/roster.json
 {
   "board": "ask",
   "default": ["bezos", "graham", "hormozi", "garyvee", "martell", "wickman", "buffett"],
+  "boards": { "business": ["hormozi", "sanchez", "bezos", "musk", "buffett"], "fitness": [] },
   "seats": [ ...every advisor you have... ]
 }
 ```
@@ -106,6 +107,8 @@ How the board gets picked is a setting in `.claude/skills/roast-room/roster.json
 | `"default"` | Your default board sits every time. No question. |
 
 You don't need to edit the file by hand. Type `/roast-room board` and say what you want: "put Naval on my default board", "take Gary V off", or "stop asking me, just use my default board".
+
+**Named boards** group advisors by area of life, such as `business`, `personal`, and `fitness`. One advisor can sit on several. Run `/roast-room --board fitness ...` and the Chair picks the council from that board only. When a question clearly belongs to one board, the Chair uses it without being told. Say "put Nippard on my fitness board" to `/roast-room board`, or pass `--board fitness` to `/newroaster`.
 
 Skip the question on any run: `--seats hormozi,naval,buffett` seats exactly those advisors, and `--all` seats everyone (up to nine). `--quick` recommends four.
 

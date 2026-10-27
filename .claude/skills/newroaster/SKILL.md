@@ -1,7 +1,7 @@
 ---
 name: newroaster
 description: Use when someone wants to add a new advisor to the Roast Room, says "/newroaster", "add a roaster", "add a seat", "add [name] to the council", "build a seat for [name]", "I want [name] on my board", or wants their own advisor (themselves, a mentor, or any public figure) built from public work. Builds the seat the same way the original seven were built. It finds and fetches the person's public sources, extracts their frameworks, rules, positions, stories, and voice with parallel sub-agents, writes the brain, checks every quote is verbatim, writes the council agent, makes their cartoon portrait for the room from a real photo (the same style and talking frames as the original seven), and registers the seat in the roster (on the default board if asked). Also redoes a portrait ("/newroaster portrait <name>"). Not for running a council (that is /roast-room).
-argument-hint: "[full name] [--quick | --deep] [--pillar \"...\"] [--default] | portrait <name>"
+argument-hint: "[full name] [--quick | --deep] [--pillar \"...\"] [--default] [--board <name>] | portrait <name>"
 ---
 
 ## What this does
@@ -42,7 +42,7 @@ Quality beats count: one 90-minute keynote is worth ten 6-minute clips.
 From the user's message, get the person's full name. If anything below is missing, ask in one AskUserQuestion batch (at most four questions), offering your best guess as the first option:
 
 1. **The pillar and the question the seat owns.** Propose one from what the person is known for, worded like the existing seats in `roster.json` (pillar: a few words; question: one plain question a founder would face). If an existing seat already owns that pillar, propose a sharper angle so the two seats argue instead of repeating each other.
-2. **Default board?** Put them at the table for every council, or keep them on call (`--seats` and `ask`). If the default board already has nine seats, ask who they replace.
+2. **Which board?** Put them on the default board, on one or more named boards in `roster.json`'s `"boards"` (`business`, `personal`, `fitness`, or a new one), or keep them on call (`--seats` and `ask`). If the default board already has nine seats, ask who they replace. Skip this question when the user already named the board.
 3. **Depth**: quick, standard, or deep (default standard).
 
 Then fix the names: `key` (short lowercase, letters only, unique in the roster, usually the surname: `naval`, `drucker`; the first name when another seat already has the surname: `leila`), `slug` (`first-last`), `short` (how the room names them: "Naval", "Leila"), and the scorecard `dimension` (a few words for what this seat scores, like "Leverage and long-term wealth").
@@ -118,10 +118,10 @@ Write `.claude/agents/council-<key>.md` from `references/agent-template.md`. Fil
 ## Step 7: Register the seat
 
 ```bash
-node .claude/skills/newroaster/scripts/add_seat.mjs --key <key> --name "<Full Name>" --short "<Short>" --slug <slug> --pillar "<pillar>" --question "<question>" --dimension "<dimension>" [--default] [--swap <key>]
+node .claude/skills/newroaster/scripts/add_seat.mjs --key <key> --name "<Full Name>" --short "<Short>" --slug <slug> --pillar "<pillar>" --question "<question>" --dimension "<dimension>" [--default] [--swap <key>] [--board <name>[,<name>]]
 ```
 
-It refuses if the agent file or a brain file is missing. `--default` adds the seat to the default board; `--swap <key>` takes another seat off it in the same move. Then:
+It refuses if the agent file or a brain file is missing. `--default` adds the seat to the default board; `--swap <key>` takes another seat off it in the same move. `--board fitness` (or `--board personal,business`) adds the seat to those named boards, creating any that do not exist. Then:
 
 - Add one or two "natural tension" lines for the new seat to `.claude/skills/roast-room/references/seats.md` (who they will clash with, and over what).
 
@@ -168,7 +168,7 @@ Run steps 4 and 5 yourself, one batch at a time: extract a batch into its notes 
 
 - Public and lawful sources only. The corpus stays in the build folder and is never committed or shared; the brain holds short quotes (under 45 words) and paraphrase, never book text.
 - Every quote in the brain is verbatim and passes `check_quotes.mjs`. A line with no source is inference and says so.
-- Do not touch the other seats' brains or agents. Only `roster.json`'s `"seats"` and `"default"` change, through `add_seat.mjs`.
+- Do not touch the other seats' brains or agents. Only `roster.json`'s `"seats"`, `"default"`, and `"boards"` change, through `add_seat.mjs`.
 - Plain English in everything you write yourself: short sentences, no em dashes, no filler.
 - A portrait is part of every seat, made from a real photo with the original seven's prompts and style reference. A written description alone never sets the likeness.
 - Cost: a standard seat is about 8 to 10 sub-agent runs plus about 5 kie.ai image jobs. Say which depth you used.

@@ -3,11 +3,12 @@
 //
 //   node .claude/skills/newroaster/scripts/add_seat.mjs --key naval --name "Naval Ravikant" --short Naval \
 //     --slug naval-ravikant --pillar "Leverage and wealth" --question "Does this build leverage you own?" \
-//     --dimension "Leverage and long-term wealth" [--color "#22b8a0"] [--default] [--swap <key>]
+//     --dimension "Leverage and long-term wealth" [--color "#22b8a0"] [--default] [--swap <key>] [--board <name>[,<name>]]
 //
 // Checks the agent file and the brain exist first, so a half-built seat never reaches the table.
 // --default puts the seat on the default board; --swap <key> takes that seat off the board in
-// the same move (the board holds at most nine). Running it again for the same key updates it.
+// the same move (the board holds at most nine). --board adds the seat to one or more named boards
+// ("fitness", "personal"), creating a board that does not exist yet. Running it again for the same key updates it.
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -57,12 +58,22 @@ if (args.includes("--default") && !r.default.includes(seat.key)) {
   r.default.push(seat.key);
 }
 
+r.boards ||= {};
+for (const b of (opt("board") || "").split(",").map((x) => x.trim().toLowerCase()).filter(Boolean)) {
+  if (!/^[a-z][a-z0-9-]{0,23}$/.test(b)) fail(`board name ${b} must be lowercase letters, digits, or dashes`);
+  r.boards[b] ||= [];
+  if (!r.boards[b].includes(seat.key)) r.boards[b].push(seat.key);
+}
+
 // one seat per line keeps the file easy to read and edit by hand
 const line = (o) => "{ " + Object.entries(o).map(([k, v]) => `${JSON.stringify(k)}: ${JSON.stringify(v)}`).join(", ") + " }";
 const out = [
   "{",
   `  "board": ${JSON.stringify(r.board || "default")},`,
   `  "default": [${r.default.map((k) => JSON.stringify(k)).join(", ")}],`,
+  `  "boards": {`,
+  Object.entries(r.boards).map(([b, ks]) => `    ${JSON.stringify(b)}: [${ks.map((k) => JSON.stringify(k)).join(", ")}]`).join(",\n"),
+  "  },",
   `  "seats": [`,
   r.seats.map((s) => "    " + line(s)).join(",\n"),
   "  ]",
@@ -73,4 +84,5 @@ fs.writeFileSync(ROSTER, out);
 
 console.log(`${at >= 0 ? "Updated" : "Added"} ${seat.name} (${seat.key}) to the roster.`);
 console.log(`Default board (${r.default.length}): ${r.default.map((k) => r.seats.find((s) => s.key === k)?.short || k).join(", ")}`);
+for (const [b, ks] of Object.entries(r.boards)) if (ks.includes(seat.key)) console.log(`Board ${b} (${ks.length}): ${ks.map((k) => r.seats.find((s) => s.key === k)?.short || k).join(", ")}`);
 console.log(`Board setting: ${r.board || "default"}`);

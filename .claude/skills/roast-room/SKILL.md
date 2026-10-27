@@ -1,7 +1,7 @@
 ---
 name: roast-room
 description: Use when a founder wants a hard business decision debated by a council of world-class operators, says "roast room", "put this in the Roast Room", "founder council", "convene the council", "take this to the board", "what would Hormozi, Bezos, or Buffett say", "should I do X", or can't make up their mind on pricing, hiring, raising money, a new product, a partnership, a pivot, an event, or spending. A board of sub-agents, each built from one expert's public work (Bezos, Paul Graham, Hormozi, Gary Vaynerchuk, Dan Martell, Gino Wickman, and Buffett out of the box, plus any seat added with /newroaster), argue it over three rounds, then a Chair returns a scored verdict, the reasoning, the dissent, and next steps. Also does a one-seat consult ("ask the Hormozi seat"). Not /roast (generic personas, idea validation).
-argument-hint: "[the decision] [--quick] [--all] [--seats hormozi,buffett,...] | ask <seat> [question] | board"
+argument-hint: "[the decision] [--quick] [--all] [--board fitness] [--seats hormozi,buffett,...] | ask <seat> [question] | board"
 ---
 
 ## What this does
@@ -15,6 +15,7 @@ Read once before the first run: `roster.json` (every seat and the default board)
 - **Full council** (default): a board recommended for this decision and confirmed by the user (see "Pick the board"), three rounds. For decisions that are expensive or hard to undo.
 - **Quick** (`--quick`): four seats, recommended per "Pick the board" and `seats.md`, Rounds 1 and 2, Round 3 only if the scores did not converge. For reversible calls.
 - **Named seats** (`--seats a,b,c`): only those seats, three rounds. Any seat in `roster.json` can be named, on the default board or not.
+- **Named board** (`--board <name>`): the Chair recommends the council from that board's seats only (see "Named boards"). Three rounds.
 - **Everyone** (`--all`): every seat in `roster.json`, up to nine.
 - **Consult** (`ask <seat> ...`): one seat, one answer, using the single-seat prompt. No scoring, no session folder needed. Works for any seat in the roster.
 - **Board settings** (`board`): show and change who sits at the table by default. See "Board settings" below. No council runs.
@@ -24,11 +25,12 @@ Read once before the first run: `roster.json` (every seat and the default board)
 Who sits at the table comes from `roster.json`, in this order:
 
 1. `--seats a,b,c` or `--all` on this run wins. No question. `--quick` then picks four from those seats.
-2. Otherwise `"board"` in `roster.json` decides:
+2. Otherwise, if the decision clearly belongs to one named board in `"boards"` (a training or nutrition question to `fitness`, a habits or life question to `personal`), use that board: recommend from its seats only, and say which board in one line. When it could fit more than one board, or none, carry on to step 3.
+3. Otherwise `"board"` in `roster.json` decides:
    - `"ask"` (out of the box): recommend a board for this decision and ask the user to confirm it (below).
    - `"auto"`: recommend a board the same way and seat it without asking. Say who and why in one line.
    - `"default"`: seat the `"default"` list. No question.
-3. Never seat more than nine. Every seat at the table must have an agent file (`.claude/agents/council-<key>.md`) and a brain folder; skip and name any that do not.
+4. Never seat more than nine. Every seat at the table must have an agent file (`.claude/agents/council-<key>.md`) and a brain folder; skip and name any that do not.
 
 ### Recommend a board
 
@@ -51,6 +53,10 @@ Show the recommendation in chat first, as a short list: each recommended seat wi
 The user can pick "Other" and type names to swap in or out ("recommended, but add Naval and drop Wickman"). Seat what they chose. When Step 1 also needs to ask about missing facts, put the board question in the same AskUserQuestion call so the user answers once. If the user said "just run it", seat the recommended board without asking.
 
 Tell the user who is at the table in one line when the council starts, and that `--seats`, `--all`, or `/roast-room board` change it.
+
+### Named boards
+
+`"boards"` in `roster.json` holds named groups of seats, such as `business`, `personal`, and `fitness`. A seat can sit on more than one. A named board is the pool the Chair picks from: with `--board <name>` (or when step 2 above matched one), recommend and ask exactly as below, but only from that board's seats, and guard the downside with that board's most cautious seat instead of reaching outside it. If the board has nine seats or fewer, offer "Whole board" as the Everyone option. Skip keys that have no seat yet. A board with fewer than three built seats cannot run a council: say so, and offer `--seats` or the full roster.
 
 ## Step 1: The brief
 
@@ -115,11 +121,11 @@ Quick mode skips this round when the Round 2 spread on the top option is 3 or le
 
 ## Board settings
 
-`/roast-room board` (or "change my board", "who's on my board", "add Naval to my default board") edits `roster.json` and runs no council.
+`/roast-room board` (or "change my board", "who's on my board", "add Naval to my default board", "put Nippard on my fitness board") edits `roster.json` and runs no council.
 
-1. Show the roster in a short table: seat, pillar, on the default board or not. Then the current `"board"` setting in plain words ("the Chair recommends a board for each decision and asks you", "the Chair picks per decision without asking", or "every council seats your default board").
-2. Ask what to change, with AskUserQuestion when the user has not already said: add or remove seats on the default board, or switch the setting between `ask`, `auto`, and `default`.
-3. Edit `roster.json` in place: only the `"board"` and `"default"` fields. Keep the default board between one and nine seats, using keys that exist in `"seats"`. Never remove a seat from `"seats"` here; taking someone off the default board keeps them available for `--seats` and `ask`.
+1. Show the roster in a short table: seat, pillar, on the default board or not, and which named boards it sits on. Then the current `"board"` setting in plain words ("the Chair recommends a board for each decision and asks you", "the Chair picks per decision without asking", or "every council seats your default board").
+2. Ask what to change, with AskUserQuestion when the user has not already said: add or remove seats on the default board or a named board, create or delete a named board, or switch the setting between `ask`, `auto`, and `default`.
+3. Edit `roster.json` in place: only the `"board"`, `"default"`, and `"boards"` fields. Board names are lowercase words. Named boards have no size limit (the Chair seats at most nine from them). Keep the default board between one and nine seats, using keys that exist in `"seats"`. Never remove a seat from `"seats"` here; taking someone off the default board keeps them available for `--seats` and `ask`.
 4. Confirm the new board in one line. The room picks it up on its next page load.
 
 To add a brand new advisor, use `/newroaster`.
@@ -132,6 +138,6 @@ Run the same protocol sequentially yourself. For each seat, read `.claude/agents
 
 - `brains/<slug>/`: one brain per seat (`_hot.md`, `frameworks.md`, `principles.md`, `positions.md`, `voice.md`, `stories.md`, `books.md`, `sources.md`).
 - `scripts/check_quotes.py`: verifies every attributed quote in a session against the brains.
-- `roster.json`: every seat (key, name, pillar, the question it owns, scorecard dimension, color) and the default board. `/newroaster` adds seats; `/roast-room board` changes the board.
+- `roster.json`: every seat (key, name, pillar, the question it owns, scorecard dimension, color), the default board, and the named boards. `/newroaster` adds seats; `/roast-room board` changes the board.
 - Agents: `.claude/agents/council-<key>.md`, one per seat in the roster.
 - The room app: `app/` (start at the project `README.md`).
