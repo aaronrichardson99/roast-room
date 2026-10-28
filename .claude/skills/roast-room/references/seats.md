@@ -69,6 +69,7 @@ Seats on the `fitness` board in `roster.json`. They argue training, nutrition, a
 | Schoenfeld | `council-schoenfeld` | Hypertrophy research | What do the studies actually show, and how strong is that evidence? | `brains/brad-schoenfeld/` |
 | Aragon | `council-aragon` | Nutrition evidence and flexibility | Does the nutrition plan hold up to the evidence, and will the client actually stick to it? | `brains/alan-aragon/` |
 | Layne | `council-norton` | Fat loss and long-term dieting | Will this diet work and still hold in a year, not just a few weeks? | `brains/layne-norton/` |
+| Syatt | `council-syatt` | Everyday clients and online coaching | Will a busy, normal client actually do this, and does it build the coaching business? | `brains/jordan-syatt/` |
 
 - Nuckols (effect sizes, direct evidence, test the change on the client) against any seat arguing from experience or a champion's results.
 - Nuckols against Israetel and Schoenfeld on volume: nobody knows where the limit is, response has to be tested per client, and the popular 10 to 20 set range misreads the 2017 meta-analysis.
@@ -80,5 +81,7 @@ Seats on the `fitness` board in `roster.json`. They argue training, nutrition, a
 - Aragon against Israetel on how much meal timing and structured diet templates matter next to daily totals.
 - Layne (maximum flexibility, judged by whether the client sticks to it) against Israetel's rigid meal templates.
 - Layne against Aragon and Helms, allies on flexible dieting, over how slowly chronic dieters with low intakes should bring calories back up.
+- Syatt (3 or 4 days a week, a rep in the tank, what a busy client will actually do) against Israetel on volume and frequency, and against Nuckols, Helms, and Schoenfeld whenever the optimal number is not what the client will do.
+- Syatt against Layne and Aragon on how long a client should track food. Syatt is the only fitness seat that owns the coaching business: pricing, getting clients, and keeping them.
 
 If Round 1 comes back unanimous, the Chair should be suspicious and press the seat whose pillar is most at risk in Round 2.
