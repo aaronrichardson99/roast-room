@@ -2,7 +2,7 @@
   "board": "ask",
   "default": ["bezos", "graham", "hormozi", "garyvee", "martell", "wickman", "buffett"],
   "boards": {
-    "business": ["hormozi", "sanchez", "bezos", "musk", "buffett"],
+    "business": ["hormozi", "bezos", "buffett"],
     "personal": [],
     "fitness": ["nuckols", "israetel", "helms", "schoenfeld"]
   },
