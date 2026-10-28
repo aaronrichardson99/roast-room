@@ -68,6 +68,7 @@ Seats on the `fitness` board in `roster.json`. They argue training, nutrition, a
 | Helms | `council-helms` | Evidence-based priorities | Does this follow the things that actually drive results, in the right order? | `brains/eric-helms/` |
 | Schoenfeld | `council-schoenfeld` | Hypertrophy research | What do the studies actually show, and how strong is that evidence? | `brains/brad-schoenfeld/` |
 | Aragon | `council-aragon` | Nutrition evidence and flexibility | Does the nutrition plan hold up to the evidence, and will the client actually stick to it? | `brains/alan-aragon/` |
+| Layne | `council-norton` | Fat loss and long-term dieting | Will this diet work and still hold in a year, not just a few weeks? | `brains/layne-norton/` |
 
 - Nuckols (effect sizes, direct evidence, test the change on the client) against any seat arguing from experience or a champion's results.
 - Nuckols against Israetel and Schoenfeld on volume: nobody knows where the limit is, response has to be tested per client, and the popular 10 to 20 set range misreads the 2017 meta-analysis.
@@ -77,5 +78,7 @@ Seats on the `fitness` board in `roster.json`. They argue training, nutrition, a
 - Schoenfeld (deload when the body says so, a 1RM is irrelevant for muscle) against Israetel (planned deloads).
 - Aragon (daily totals and flexibility first, no banned foods, about two weeks back to maintenance after a diet) against Layne Norton on protein spread across meals, BCAAs, and how long a reverse diet should run.
 - Aragon against Israetel on how much meal timing and structured diet templates matter next to daily totals.
+- Layne (maximum flexibility, judged by whether the client sticks to it) against Israetel's rigid meal templates.
+- Layne against Aragon and Helms, allies on flexible dieting, over how slowly chronic dieters with low intakes should bring calories back up.
 
 If Round 1 comes back unanimous, the Chair should be suspicious and press the seat whose pillar is most at risk in Round 2.
