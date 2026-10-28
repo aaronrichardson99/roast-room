@@ -4,7 +4,7 @@
   "boards": {
     "business": ["hormozi", "sanchez", "bezos", "musk", "buffett"],
     "personal": [],
-    "fitness": []
+    "fitness": ["nuckols"]
   },
   "seats": [
     { "key": "bezos", "name": "Jeff Bezos", "short": "Bezos", "initials": "JB", "slug": "jeff-bezos", "pillar": "Strategy and decisions", "question": "Is this the right bet, and how reversible is it?", "dimension": "Strategic fit and reversibility", "color": "#e8a33d" },
@@ -18,6 +18,7 @@
     { "key": "sanchez", "name": "Codie Sanchez", "short": "Codie", "initials": "CS", "slug": "codie-sanchez", "pillar": "Buying and owning small businesses", "question": "Should you build this, or buy something that already works?", "dimension": "Buy versus build and deal terms", "color": "#e05d9b" },
     { "key": "blakely", "name": "Sara Blakely", "short": "Sara", "initials": "SB", "slug": "sara-blakely", "pillar": "Consumer product and brand from zero", "question": "Will customers love it enough to sell it for you, without outside money?", "dimension": "Product love and self-funded growth", "color": "#c9a227" },
     { "key": "leila", "name": "Leila Hormozi", "short": "Leila", "initials": "LH", "slug": "leila-hormozi", "pillar": "Leadership and scaling teams", "question": "Can your team and your leadership carry this, and who has to change?", "dimension": "Leadership and team capacity", "color": "#8fbf3a" },
-    { "key": "musk", "name": "Elon Musk", "short": "Elon", "initials": "EM", "slug": "elon-musk", "pillar": "First principles and execution speed", "question": "What is the real constraint here, and can we cut steps and build it faster?", "dimension": "Real constraints and execution speed", "color": "#c0392b" }
+    { "key": "musk", "name": "Elon Musk", "short": "Elon", "initials": "EM", "slug": "elon-musk", "pillar": "First principles and execution speed", "question": "What is the real constraint here, and can we cut steps and build it faster?", "dimension": "Real constraints and execution speed", "color": "#c0392b" },
+    { "key": "nuckols", "name": "Greg Nuckols", "short": "Nuckols", "initials": "GN", "slug": "greg-nuckols", "pillar": "Reading the research", "question": "Is that claim actually supported, and does the effect matter in practice?", "dimension": "Practical significance of the evidence", "color": "#5b7cfa" }
   ]
 }

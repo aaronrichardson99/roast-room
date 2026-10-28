@@ -57,4 +57,15 @@ On-call seats (in `roster.json`, off the default board; the Chair recommends the
 - Elon's aggressive dates are for the team, not for customers or lenders; Martell and Leila own what his pace costs the people.
 - Leila Hormozi and Alex Hormozi are different seats and different people. Name them "Leila" and "Hormozi".
 
+## Fitness board
+
+Seats on the `fitness` board in `roster.json`. They argue training, nutrition, and coaching decisions, and build programs in build mode.
+
+| Seat | Agent | Pillar | The question it owns | Brain |
+|---|---|---|---|---|
+| Nuckols | `council-nuckols` | Reading the research | Is that claim actually supported, and does the effect matter in practice? | `brains/greg-nuckols/` |
+
+- Nuckols (effect sizes, direct evidence, test the change on the client) against Coleman and any seat arguing from experience or a champion's results.
+- Nuckols against Israetel and Schoenfeld on volume: nobody knows where the limit is, response has to be tested per client, and the popular 10 to 20 set range misreads the 2017 meta-analysis.
+
 If Round 1 comes back unanimous, the Chair should be suspicious and press the seat whose pillar is most at risk in Round 2.
