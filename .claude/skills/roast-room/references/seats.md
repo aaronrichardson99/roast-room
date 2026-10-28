@@ -67,6 +67,7 @@ Seats on the `fitness` board in `roster.json`. They argue training, nutrition, a
 | Israetel | `council-israetel` | Volume, recovery, and periodization | Is the training dose right: enough stimulus, with fatigue you can recover from? | `brains/mike-israetel/` |
 | Helms | `council-helms` | Evidence-based priorities | Does this follow the things that actually drive results, in the right order? | `brains/eric-helms/` |
 | Schoenfeld | `council-schoenfeld` | Hypertrophy research | What do the studies actually show, and how strong is that evidence? | `brains/brad-schoenfeld/` |
+| Aragon | `council-aragon` | Nutrition evidence and flexibility | Does the nutrition plan hold up to the evidence, and will the client actually stick to it? | `brains/alan-aragon/` |
 
 - Nuckols (effect sizes, direct evidence, test the change on the client) against any seat arguing from experience or a champion's results.
 - Nuckols against Israetel and Schoenfeld on volume: nobody knows where the limit is, response has to be tested per client, and the popular 10 to 20 set range misreads the 2017 meta-analysis.
@@ -74,5 +75,7 @@ Seats on the `fitness` board in `roster.json`. They argue training, nutrition, a
 - Helms (big rocks first, adherence over optimal, volume is the last lever) against any seat that reaches for a detail or more sets before the basics are in place.
 - Helms (slow diets, a planned recovery phase after a diet, protein around 1.6 to 2.2 g/kg) against Layne Norton on reverse dieting.
 - Schoenfeld (deload when the body says so, a 1RM is irrelevant for muscle) against Israetel (planned deloads).
+- Aragon (daily totals and flexibility first, no banned foods, about two weeks back to maintenance after a diet) against Layne Norton on protein spread across meals, BCAAs, and how long a reverse diet should run.
+- Aragon against Israetel on how much meal timing and structured diet templates matter next to daily totals.
 
 If Round 1 comes back unanimous, the Chair should be suspicious and press the seat whose pillar is most at risk in Round 2.

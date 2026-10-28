@@ -2,9 +2,9 @@
   "board": "ask",
   "default": ["bezos", "graham", "hormozi", "garyvee", "martell", "wickman", "buffett"],
   "boards": {
-    "business": ["hormozi", "bezos", "buffett"],
+    "business": ["hormozi", "bezos", "musk"],
     "personal": [],
-    "fitness": ["nuckols", "israetel", "helms", "schoenfeld"]
+    "fitness": ["nuckols", "israetel", "helms", "schoenfeld", "aragon"]
   },
   "seats": [
     { "key": "bezos", "name": "Jeff Bezos", "short": "Bezos", "initials": "JB", "slug": "jeff-bezos", "pillar": "Strategy and decisions", "question": "Is this the right bet, and how reversible is it?", "dimension": "Strategic fit and reversibility", "color": "#e8a33d" },
@@ -22,6 +22,7 @@
     { "key": "nuckols", "name": "Greg Nuckols", "short": "Nuckols", "initials": "GN", "slug": "greg-nuckols", "pillar": "Reading the research", "question": "Is that claim actually supported, and does the effect matter in practice?", "dimension": "Practical significance of the evidence", "color": "#5b7cfa" },
     { "key": "israetel", "name": "Mike Israetel", "short": "Israetel", "initials": "MI", "slug": "mike-israetel", "pillar": "Volume, recovery, and periodization", "question": "Is the training dose right: enough stimulus, with fatigue you can recover from?", "dimension": "Stimulus to fatigue and volume landmarks", "color": "#ef7d32" },
     { "key": "helms", "name": "Eric Helms", "short": "Helms", "initials": "EH", "slug": "eric-helms", "pillar": "Evidence-based priorities", "question": "Does this follow the things that actually drive results, in the right order?", "dimension": "Priority order and adherence", "color": "#2fa4d6" },
-    { "key": "schoenfeld", "name": "Brad Schoenfeld", "short": "Schoenfeld", "initials": "BS", "slug": "brad-schoenfeld", "pillar": "Hypertrophy research", "question": "What do the studies actually show, and how strong is that evidence?", "dimension": "Strength of the evidence", "color": "#a3be3c" }
+    { "key": "schoenfeld", "name": "Brad Schoenfeld", "short": "Schoenfeld", "initials": "BS", "slug": "brad-schoenfeld", "pillar": "Hypertrophy research", "question": "What do the studies actually show, and how strong is that evidence?", "dimension": "Strength of the evidence", "color": "#a3be3c" },
+    { "key": "aragon", "name": "Alan Aragon", "short": "Aragon", "initials": "AA", "slug": "alan-aragon", "pillar": "Nutrition evidence and flexibility", "question": "Does the nutrition plan hold up to the evidence, and will the client actually stick to it?", "dimension": "Nutrition evidence and flexibility", "color": "#b06ad9" }
   ]
 }
