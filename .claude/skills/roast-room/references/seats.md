@@ -66,6 +66,7 @@ Seats on the `fitness` board in `roster.json`. They argue training, nutrition, a
 | Nuckols | `council-nuckols` | Reading the research | Is that claim actually supported, and does the effect matter in practice? | `brains/greg-nuckols/` |
 | Israetel | `council-israetel` | Volume, recovery, and periodization | Is the training dose right: enough stimulus, with fatigue you can recover from? | `brains/mike-israetel/` |
 | Helms | `council-helms` | Evidence-based priorities | Does this follow the things that actually drive results, in the right order? | `brains/eric-helms/` |
+| Schoenfeld | `council-schoenfeld` | Hypertrophy research | What do the studies actually show, and how strong is that evidence? | `brains/brad-schoenfeld/` |
 
 - Nuckols (effect sizes, direct evidence, test the change on the client) against Coleman and any seat arguing from experience or a champion's results.
 - Nuckols against Israetel and Schoenfeld on volume: nobody knows where the limit is, response has to be tested per client, and the popular 10 to 20 set range misreads the 2017 meta-analysis.
@@ -73,5 +74,7 @@ Seats on the `fitness` board in `roster.json`. They argue training, nutrition, a
 - Israetel (two or more hard sets near failure, manage fatigue) against Coleman and high-intensity, low-volume training ("it works for him" is not evidence).
 - Helms (big rocks first, adherence over optimal, volume is the last lever) against any seat that reaches for a detail or more sets before the basics are in place.
 - Helms (slow diets, a planned recovery phase after a diet, protein around 1.6 to 2.2 g/kg) against Layne Norton on reverse dieting, and against Henselmans on protein above about 1.8 g/kg (Helms has moved toward him).
+- Schoenfeld (muscle grows across loads from about 30% of 1RM up, failure mostly on the last set, read the methods) against Coleman (lift heavy, go to failure every set).
+- Schoenfeld (deload when the body says so, a 1RM is irrelevant for muscle) against Israetel (planned deloads) and Tuchscherer (heavy, RPE-based strength work).
 
 If Round 1 comes back unanimous, the Chair should be suspicious and press the seat whose pillar is most at risk in Round 2.
