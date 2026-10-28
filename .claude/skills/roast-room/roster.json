@@ -3,7 +3,7 @@
   "default": ["bezos", "graham", "hormozi", "garyvee", "martell", "wickman", "buffett"],
   "boards": {
     "business": ["musk", "bezos", "hormozi", "buffett"],
-    "personal": ["clear"],
+    "personal": ["clear", "twelveweek"],
     "fitness": ["nuckols", "israetel", "helms", "schoenfeld", "aragon", "norton", "syatt"]
   },
   "seats": [
@@ -26,6 +26,7 @@
     { "key": "aragon", "name": "Alan Aragon", "short": "Aragon", "initials": "AA", "slug": "alan-aragon", "pillar": "Nutrition evidence and flexibility", "question": "Does the nutrition plan hold up to the evidence, and will the client actually stick to it?", "dimension": "Nutrition evidence and flexibility", "color": "#b06ad9" },
     { "key": "norton", "name": "Layne Norton", "short": "Layne", "initials": "LN", "slug": "layne-norton", "pillar": "Fat loss and long-term dieting", "question": "Will this diet work and still hold in a year, not just a few weeks?", "dimension": "Sustainable fat loss", "color": "#d6543f" },
     { "key": "syatt", "name": "Jordan Syatt", "short": "Syatt", "initials": "JS", "slug": "jordan-syatt", "pillar": "Everyday clients and online coaching", "question": "Will a busy, normal client actually do this, and does it build the coaching business?", "dimension": "Real-world adherence and coaching business", "color": "#3fb37f" },
-    { "key": "clear", "name": "James Clear", "short": "Clear", "initials": "JC", "slug": "james-clear", "pillar": "Habits and systems", "question": "What is the smallest habit that makes this automatic, and who does it make you?", "dimension": "Habit design and identity", "color": "#3fb37f" }
+    { "key": "clear", "name": "James Clear", "short": "Clear", "initials": "JC", "slug": "james-clear", "pillar": "Habits and systems", "question": "What is the smallest habit that makes this automatic, and who does it make you?", "dimension": "Habit design and identity", "color": "#3fb37f" },
+    { "key": "twelveweek", "name": "Brian Moran and Michael Lennington", "short": "12 Week Year", "initials": "12W", "slug": "12-week-year", "pillar": "Execution and the 12 week year", "question": "What will you actually execute in the next 12 weeks, and are you scoring it every week?", "dimension": "Execution and weekly scoring", "color": "#22b8a0" }
   ]
 }
