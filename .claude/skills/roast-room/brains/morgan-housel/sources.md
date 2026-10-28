@@ -1,0 +1,71 @@
+# Sources: Morgan Housel
+
+65 sources (65 web), 252,761 words. Video dates are upload dates. Every quote in this brain carries one of these ids.
+
+Format: id | title | url | date | words
+
+- S001 | The Tim Ferriss Show Transcripts: Morgan Housel: The Psychology of Money, Picking the Right Game, and the $6 Million Janitor (#576) - The Blog of Author Tim Fe | https://tim.blog/2022/03/05/morgan-housel-the-psychology-of-money-transcript/ | 2022-03-05 | 38359
+- S002 | The Tim Ferriss Show Transcripts: Morgan Housel: Contrarian Money and Writing Advice, Three Simple Goals to Guide Your Life, Journaling Prompts, Choosing the R | https://tim.blog/?p=69968 | 2023-11-03 | 26885
+- S004 | The Diary Of A CEO with Steven Bartlett - The Savings Expert: “Do Not Buy A House!”, How To Turn £100 Into £1.5m Without Effort: Morgan Housel Transcript and Di | https://podscripts.co/podcasts/the-diary-of-a-ceo-with-steven-bartlett/the-savings-expert-do-not-buy-a-house-how-to-turn-ps100-into-ps15m-without-effort-morgan-housel | 2023-11 | 27006
+- S005 | Transcript: Post-Traumatic Broke Syndrome Is Controlling Millions: Morgan Housel on DOAC Podcast: The Singju Post | https://singjupost.com/transcript-post-traumatic-broke-syndrome-is-controlling-millions-morgan-housel-on-doac-podcast/ | 2025-10-06 | 26715
+- S006 | The Compound and Friends - Things That Never Change With Morgan Housel Transcript and Discussion | https://podscripts.co/podcasts/the-compound-and-friends/things-that-never-change-with-morgan-housel | 2023-11 | 10442
+- S007 | BiggerPockets Real Estate Podcast - Morgan Housel: The Investing Expert’s “System” for Stress-Free Wealth Transcript and Discussion | https://podscripts.co/podcasts/biggerpockets-real-estate-podcast/morgan-housel-the-investing-experts-system-for-stress-free-wealth | 2026-06 | 10994
+- S008 | We Study Billionaires - The Investor’s Podcast Network - TIP602: Same as Ever w/ Morgan Housel Transcript and Discussion | https://podscripts.co/podcasts/we-study-billionaires-the-investors-podcast-network/tip602-same-as-ever-w-morgan-housel | 2024-01 | 14044
+- S009 | Author Morgan Housel on Stock Market History and Wild Minds / The Motley Fool | https://www.fool.com/investing/2024/08/07/morgan-housel-on-market-history-and-wild-minds | 2024-08-08 | 5985
+- S010 | Morgan Housel / ACQ2 | https://www.acquired.fm/acq2-episodes/morgan-housel | 2023-11-06 | 19987
+- S011 | The Psychology of Money | https://collabfund.com/blog/the-psychology-of-money/ | 2018-06-01 | 8031
+- S012 | The Highest Forms of Wealth | https://collabfund.com/blog/the-highest-forms-of-wealth/ | 2021-07-20 | 895
+- S013 | Alternative Forms of Wealth | https://collabfund.com/blog/alternative-forms-of-wealth/ | 2020-08-27 | 281
+- S014 | Risk is How Much Time You Need | https://collabfund.com/blog/risk/ | 2017-03-30 | 887
+- S015 | The Three Sides of Risk | https://collabfund.com/blog/the-three-sides-of-risk/ | 2020-08-08 | 3028
+- S016 | Getting Rich vs. Staying Rich | https://collabfund.com/blog/getting-rich-vs-staying-rich/ | 2017-02-16 | 1245
+- S017 | Getting Wealthy vs. Staying Wealthy | https://collabfund.com/blog/getting-wealthy-vs-staying-wealthy/ | 2022-11-28 | 2763
+- S018 | Good Enough | https://collabfund.com/blog/good-enough/ | 2022-09-07 | 895
+- S019 | Getting the Goalpost to Stop Moving | https://collabfund.com/blog/goalpost/ | 2021-06-07 | 2646
+- S020 | Expectations Debt | https://collabfund.com/blog/expectations-debt/ | 2023-05-25 | 729
+- S021 | Minimum Levels of Stress | https://collabfund.com/blog/minimum-levels-of-stress/ | 2025-01-13 | 680
+- S022 | Pure Independence | https://collabfund.com/blog/pure-independence/ | 2025-02-27 | 2422
+- S023 | Frugal vs. Independent | https://collabfund.com/blog/frugal-vs-independent/ | 2023-11-28 | 787
+- S024 | A Few Thoughts on Spending Money | https://collabfund.com/blog/a-few-thoughts-on-spending-money/ | 2024-01-31 | 796
+- S025 | The Art and Science of Spending Money | https://collabfund.com/blog/the-art-and-science-of-spending-money/ | 2023-01-12 | 4039
+- S026 | How I Think About Debt | https://collabfund.com/blog/how-i-think-about-debt/ | 2024-04-30 | 540
+- S027 | Rational vs. Reasonable | https://collabfund.com/blog/rational-vs-reasonable/ | 2018-12-11 | 1191
+- S028 | Tails, You Win | https://collabfund.com/blog/tails-you-win/ | 2022-07-26 | 1194
+- S029 | Compounding Optimism | https://collabfund.com/blog/compounding-optimism/ | 2023-06-13 | 1134
+- S030 | The Seduction of Pessimism | https://collabfund.com/blog/the-seduction-of-pessimism/ | 2017-06-13 | 1065
+- S031 | Play Your Own Game | https://collabfund.com/blog/play-your-own-game/ | 2021-05-13 | 767
+- S032 | The Advantage Of Being A Little Underemployed | https://collabfund.com/blog/the-advantage-of-being-a-little-bit-underemployed/ | 2017-05-17 | 1159
+- S033 | Lazy Work, Good Work | https://collabfund.com/blog/lazy-work-good-work/ | 2024-05-27 | 958
+- S034 | Risk and Regret | https://collabfund.com/blog/risk-and-regret/ | 2023-02-09 | 532
+- S035 | Everything You Can’t Have | https://collabfund.com/blog/everything-you-cant-have/ | 2023-01-31 | 974
+- S036 | The Luckier You Are The Nicer You Should Be | https://collabfund.com/blog/the-luckier-you-are-the-nicer-you-should-be/ | 2023-03-02 | 511
+- S037 | A Few Laws of Getting Rich | https://collabfund.com/blog/a-few-laws-of-getting-rich/ | 2023-10-15 | 2507
+- S038 | The Thin Line Between Bold and Reckless | https://collabfund.com/blog/the-thin-line-between-bold-and-reckless/ | 2023-10-05 | 1022
+- S039 | Financial Advice For My New Daughter | https://collabfund.com/blog/financial-advice-for-my-new-daughter/ | 2019-06-04 | 950
+- S040 | Ideas That Changed My Life | https://collabfund.com/blog/ideas-that-changed-my-life/ | 2022-12-07 | 1109
+- S041 | Internal vs. External Benchmarks | https://collabfund.com/blog/internal-vs-external-benchmarks/ | 2021-10-26 | 889
+- S042 | Long-Term Money | https://collabfund.com/blog/long-term-money/ | 2026-04-02 | 980
+- S043 | A Few Things I’m Pretty Sure About | https://collabfund.com/blog/a-few-things-im-pretty-sure-about-2026/ | 2026-01-06 | 1079
+- S044 | Little Rules About Big Things | https://collabfund.com/blog/little-rules-about-big-things/ | 2025-08-13 | 2248
+- S045 | Very Bad Advice | https://collabfund.com/blog/very-bad-advice/ | 2025-06-12 | 496
+- S046 | Do It Your Way | https://collabfund.com/blog/your-way-is-the-only-way/ | 2024-09-23 | 590
+- S047 | Stress and Comfort: Careful What You Wish For | https://collabfund.com/blog/careful-what-you-wish-for/ | 2017-04-20 | 1463
+- S048 | 100 Little Ideas | https://collabfund.com/blog/100-little-ideas/ | 2020-02-20 | 2895
+- S049 | Time Horizon vs. Endurance | https://collabfund.com/blog/time-horizon-vs-endurance/ | 2018-10-11 | 653
+- S050 | It’s Supposed To Be Hard | https://collabfund.com/blog/its-supposed-to-be-hard/ | 2022-09-09 | 734
+- S052 | The Reasonable Optimist | https://collabfund.com/blog/the-reasonable-optimist/ | 2020-12-03 | 1385
+- S053 | Personal Finance Philosophies | https://collabfund.com/blog/PF/ | 2021-01-21 | 659
+- S054 | Saving Money and Running Backwards | https://collabfund.com/blog/saving-money-and-running-backwards/ | 2017-09-27 | 614
+- S055 | Let Me Convince You To Save Money | https://collabfund.com/blog/let-me-convince-you-to-save-money/ | 2017-03-09 | 765
+- S056 | The Power of Failing Well | https://collabfund.com/blog/the-power-of-failing-well/ | 2017-06-07 | 672
+- S057 | Not Caring: A Unique and Powerful Skill | https://collabfund.com/blog/not-caring-a-unique-and-powerful-skill/ | 2019-02-28 | 1097
+- S058 | Mental Liquidity | https://collabfund.com/blog/mental-liquidity/ | 2023-03-29 | 907
+- S059 | The Spectrum of Financial Dependence and Independence | https://collabfund.com/blog/the-spectrum-of-financial-dependence-and-independence/ | 2023-05-16 | 892
+- S060 | FOMO: The Worst Financial Trait | https://collabfund.com/blog/fomo-the-worst-financial-trait/ | 2023-01-19 | 410
+- S061 | Beautiful vs. Practical Advice | https://collabfund.com/blog/beautiful-vs-practical-advice/ | 2025-03-18 | 842
+- S062 | My New Book: The Art of Spending Money | https://collabfund.com/blog/my-new-book-the-art-of-spending-money/ | 2025-09-03 | 702
+- S063 | Assured Misery | https://collabfund.com/blog/assured-misery/ | 2021-11-30 | 1422
+- S064 | Wealth vs. Getting Wealthier | https://collabfund.com/blog/wealth-vs-getting-wealthier/ | 2022-06-28 | 642
+- S065 | Lifestyles | https://collabfund.com/blog/lifestyles/ | 2022-07-06 | 1692
+- S066 | The Full Reset | https://collabfund.com/blog/the-full-reset/ | 2023-11-20 | 1293
+- S067 | How to Read: Lots of Inputs and a Strong Filter | https://collabfund.com/blog/how-to-read-lots-of-inputs-and-a-strong-filter/ | 2023-08-03 | 586
