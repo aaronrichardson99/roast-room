@@ -1,0 +1,81 @@
+# Sources: James Clear
+
+75 sources (75 web), 256,306 words. Video dates are upload dates. Every quote in this brain carries one of these ids.
+
+Format: id | title | url | date | words
+
+- S001 | Identity-Based Habits: How to Actually Stick to Your Goals This Year | https://jamesclear.com/identity-based-habits | 2012-12-31 | 1472
+- S002 | The Habits Guide: How to Build Good Habits and Break Bad Ones | https://jamesclear.com/habits | 2014-08-26 | 1834
+- S003 | The Tim Ferriss Show Transcripts: James Clear, Atomic Habits: Simple Strategies for Building (and Breaking) Habits, Questions for Personal Mastery and Growth,  | https://tim.blog/2023/01/06/james-clear-atomic-habits-transcript/ | 2023-01-07 | 27436
+- S004 | The Diary Of A CEO with Steven Bartlett - Discipline Expert: The Habit That Will Make Or Break Your Entire 2026! James Clear Transcript and Discussion | https://podscripts.co/podcasts/the-diary-of-a-ceo-with-steven-bartlett/discipline-expert-the-habit-that-will-make-or-break-your-entire-2026-james-clear | 2025-12-11 | 32118
+- S005 | The One You Feed - James Clear on Compounding Nature of Habits (Part 1) Transcript and Discussion | https://podscripts.co/podcasts/the-one-you-feed/james-clear-on-compounding-nature-of-habits-part-1 | 2018-10-16 | 9153
+- S006 | The Daily Stoic - James Clear’s Guide to Turning New Year's Resolutions into Lasting Habits Transcript and Discussion | https://podscripts.co/podcasts/the-daily-stoic/james-clears-guide-to-turning-new-years-resolutions-into-lasting-habits | 2024-12-14 | 11363
+- S007 | The Daily Stoic - Reminders From James Clear on How To Get 1% Better Every Day Transcript and Discussion | https://podscripts.co/podcasts/the-daily-stoic/reminders-from-james-clear-on-how-to-get-1-better-every-day | 2021-01 | 12618
+- S008 | The One You Feed - James Clear Transcript and Discussion | https://podscripts.co/podcasts/the-one-you-feed/james-clear | 2014-12-08 | 11610
+- S010 | Forget About Setting Goals. Focus on This Instead. | https://jamesclear.com/goals-systems | 2013-10-28 | 1401
+- S011 | This Coach Improved Every Tiny Thing by 1 Percent and Here’s What Happened | https://jamesclear.com/marginal-gains | 2014-01-06 | 1667
+- S012 | How to Build New Habits by Taking Advantage of Old Ones | https://jamesclear.com/habit-stacking | 2014-08-01 | 2107
+- S013 | How to Stop Procrastinating by Using the "2-Minute Rule" | https://jamesclear.com/how-to-stop-procrastinating | 2013-05-27 | 1294
+- S014 | Motivation is Overvalued. Environment Often Matters More. | https://jamesclear.com/power-of-environment | 2016-07-07 | 1362
+- S015 | How to Stick With Good Habits Even When Your Willpower is Gone | https://jamesclear.com/choice-architecture | 2014-01-27 | 1282
+- S016 | How To Start New Habits That Actually Stick | https://jamesclear.com/three-steps-habit-change | 2013-02-14 | 2323
+- S017 | How to Break a Bad Habit and Replace It With a Good One | https://jamesclear.com/how-to-break-a-bad-habit | 2013-05-13 | 1863
+- S018 | How to Change Your Beliefs and Stick to Your Goals for Good | https://jamesclear.com/identity-votes | 2014-04-03 | 1480
+- S019 | The Habits Scorecard: Use This Simple Exercise to Discover Which Habits You Should Change | https://jamesclear.com/habits-scorecard | 2018-10-15 | 1439
+- S020 | Achieve Your Goals: Research Reveals a Simple Trick That Doubles Your Chances for Success | https://jamesclear.com/implementation-intentions | 2013-05-16 | 2036
+- S021 | How to Stop Procrastinating and Boost Your Willpower by Using “Temptation Bundling" | https://jamesclear.com/temptation-bundling | 2015-06-25 | 1385
+- S022 | The Ultimate Habit Tracker Guide: Why and How to Track Your Habits | https://jamesclear.com/habit-tracker | 2019-01-14 | 2755
+- S023 | Get Back on Track: 7 Strategies to Help You Bounce Back After Slipping Up | https://jamesclear.com/get-back-on-track | 2013-03-21 | 1934
+- S024 | The Difference Between Professionals and Amateurs | https://jamesclear.com/professionals-and-amateurs | 2013-01-03 | 1523
+- S025 | The Goldilocks Rule: How to Stay Motivated in Life and Business | https://jamesclear.com/goldilocks-rule | 2016-06-28 | 1526
+- S026 | Why Trying to Be Perfect Won’t Help You Achieve Your Goals (And What Will) | https://jamesclear.com/repetitions | 2014-01-03 | 1316
+- S027 | I’m Using These 3 Simple Steps to Actually Stick with Good Habits | https://jamesclear.com/small-habits | 2014-03-27 | 1394
+- S028 | How Long Does it Actually Take to Form a New Habit? (Backed by Science) | https://jamesclear.com/new-habit | 2014-03-06 | 1322
+- S029 | 5 Common Mistakes That Cause New Habits to Fail | https://jamesclear.com/habits-fail | 2015-01-06 | 1945
+- S030 | Keystone Habits: The Simple Way to Improve All Aspects of Your Life | https://jamesclear.com/keystone-habits | 2012-12-27 | 718
+- S031 | How to Stop Procrastinating on Your Goals by Using the “Seinfeld Strategy” | https://jamesclear.com/stop-procrastinating-seinfeld-strategy | 2013-07-19 | 1556
+- S032 | How to Optimize Your Daily Decisions | https://jamesclear.com/design-default | 2015-04-24 | 1258
+- S033 | The Downside of Work-Life Balance | https://jamesclear.com/four-burners-theory | 2016-05-31 | 1647
+- S034 | How to Get Motivated When You Don't Feel Like It | https://jamesclear.com/how-to-get-motivated | 2013-03-04 | 1901
+- S035 | How to Achieve Your Goals Easily | https://jamesclear.com/schedule-goals | 2013-02-21 | 1204
+- S036 | Warren Buffett's "2 List" Strategy: How to Maximize Your Focus and Master Your Priorities | https://jamesclear.com/buffett-focus | 2014-10-21 | 877
+- S037 | The Ultimate Productivity Hack is Saying No | https://jamesclear.com/saying-no | 2019-03-26 | 1884
+- S038 | How to be More Productive and Eliminate Time Wasting Activities by Using the “Eisenhower Box” | https://jamesclear.com/eisenhower-box | 2014-04-07 | 1189
+- S039 | The Ivy Lee Method: The Daily Routine Experts Recommend for Peak Productivity | https://jamesclear.com/ivy-lee | 2015-07-07 | 1328
+- S040 | The Science of Developing Mental Toughness in Your Health, Work, and Life | https://jamesclear.com/mental-toughness | 2013-04-11 | 2114
+- S041 | How to Fall in Love With Boredom and Unlock Your Mental Toughness | https://jamesclear.com/in-love-with-boredom | 2015-06-12 | 1015
+- S042 | Successful People Start Before They Feel Ready | https://jamesclear.com/successful-people-start-before-they-feel-ready | 2012-11-12 | 1202
+- S043 | 40 Years of Stanford Research Found That People With This One Quality Are More Likely to Succeed | https://jamesclear.com/delayed-gratification | 2014-01-23 | 1447
+- S044 | The 3 Stages of Failure in Life and Work | https://jamesclear.com/3-stages-of-failure | 2016-05-23 | 3854
+- S045 | How to Get Better Sleep: The Beginner's Guide to Overcoming Sleep Deprivation | https://jamesclear.com/better-sleep | 2014-07-08 | 3895
+- S046 | 3 Simple Ways to Make Exercise a Habit | https://jamesclear.com/exercise-habit | 2014-09-19 | 1092
+- S047 | 10 Simple Ways to Eat Healthy Without Thinking, Backed by Science | https://jamesclear.com/eat-healthy-without-thinking | 2014-01-31 | 1486
+- S048 | Two Harvard Professors Reveal One Reason Our Brains Love to Procrastinate | https://jamesclear.com/time-inconsistency | 2015-06-30 | 1374
+- S049 | The Proven Path to Creating Unique and Meaningful Work | https://jamesclear.com/stay-on-the-bus | 2016-03-08 | 1842
+- S050 | What if You Treated Your Life Like a Team Sport? | https://jamesclear.com/life-team-sport | 2013-04-30 | 1916
+- S051 | Plan For Failure: Being Consistent Is Not the Same as Being Perfect | https://jamesclear.com/plan-failure | 2014-04-29 | 895
+- S052 | The Top Life Regret of Dying Hospital Patients | https://jamesclear.com/top-regret-dying-people | 2012-12-20 | 1127
+- S053 | You Get 25,000 Mornings as an Adult: Here are 8 Ways to Not Waste Them | https://jamesclear.com/25000-mornings | 2013-06-13 | 1422
+- S054 | How to Read More: The Simple System I'm Using to Read 30+ Books Per Year | https://jamesclear.com/read-more | 2014-07-10 | 996
+- S055 | Absolute Success is Luck. Relative Success is Hard Work. | https://jamesclear.com/luck-vs-hard-work | 2018-09-17 | 2834
+- S056 | Why Facts Don’t Change Our Minds | https://jamesclear.com/why-facts-dont-change-minds | 2018-09-10 | 2621
+- S057 | My 2013 Annual Review | https://jamesclear.com/2013-annual-review | 2013-12-30 | 1676
+- S058 | My 2014 Annual Review | https://jamesclear.com/2014-annual-review | 2014-12-29 | 1862
+- S059 | My 2015 Annual Review | https://jamesclear.com/2015-annual-review | 2016-01-01 | 2252
+- S060 | My 2016 Annual Review | https://jamesclear.com/2016-annual-review | 2016-12-31 | 2475
+- S061 | My 2017 Annual Review | https://jamesclear.com/2017-annual-review | 2017-12-31 | 2284
+- S062 | My 2018 Annual Review | https://jamesclear.com/2018-annual-review | 2018-12-31 | 2488
+- S063 | My 2019 Annual Review | https://jamesclear.com/2019-annual-review | 2020-01-06 | 2231
+- S064 | My 2014 Integrity Report | https://jamesclear.com/2014-integrity-report | 2014-03-25 | 1556
+- S065 | My 2016 Integrity Report | https://jamesclear.com/2016-integrity-report | 2016-06-07 | 1969
+- S066 | Happy 1st Birthday, Atomic Habits! (plus 3 gifts for you...) | https://jamesclear.com/atomic-habits-first-birthday | 2019-10-15 | 565
+- S067 | 3-2-1: On choosing the right goal, focus, and perseverance | https://jamesclear.com/3-2-1/july-2-2020 | 2020-07-02 | 556
+- S068 | 3-2-1: New perspectives, how to improve your thinking, and revising habits | https://jamesclear.com/3-2-1/january-6-2022 | 2022-01-06 | 573
+- S069 | 3-2-1: Inspiration, getting started, and the power of cumulative action | https://jamesclear.com/3-2-1/january-5-2023 | 2023-01-05 | 664
+- S070 | 3-2-1: Starting the new year the right way, how to stay focused, and a lesson on long-term thinking | https://jamesclear.com/3-2-1/january-04-2024 | 2024-01-04 | 546
+- S071 | 3-2-1: On the power of quiet moments, how to make good habits easy, and starting the year with enthusiasm | https://jamesclear.com/3-2-1/january-2-2025 | 2025-01-02 | 771
+- S072 | 3-2-1: How to make changes that last, the key to productivity, and a simple way to find your true self | https://jamesclear.com/3-2-1/january-1-2026 | 2026-01-01 | 548
+- S073 | 3-2-1: On being proactive, learning to cook, and optimizing for impact over fame | https://jamesclear.com/3-2-1/october-22-2026 | 2026-10-22 | 546
+- S074 | The Peter Attia Drive - Building & Changing Habits / James Clear (#183 rebroadcast) Transcript and Discussion | https://podscripts.co/podcasts/the-peter-attia-drive/building-changing-habits-james-clear-183-rebroadcast | 2021-11 | 31482
+- S075 | TED Talks Daily - Sunday Pick: How to develop the habits you want: and get rid of the ones you don’t Transcript and Discussion | https://podscripts.co/podcasts/ted-talks-daily/sunday-pick-how-to-develop-the-habits-you-want-and-get-rid-of-the-ones-you-dont | 2024-08 | 8544
+- S076 | Morning Brew Daily - 'Atomic Habits' Author James Clear Helps You Own the New Year Transcript and Discussion | https://podscripts.co/podcasts/morning-brew-daily/atomic-habits-author-james-clear-helps-you-own-the-new-year | 2024-01 | 7066

@@ -84,4 +84,15 @@ Seats on the `fitness` board in `roster.json`. They argue training, nutrition, a
 - Syatt (3 or 4 days a week, a rep in the tank, what a busy client will actually do) against Israetel on volume and frequency, and against Nuckols, Helms, and Schoenfeld whenever the optimal number is not what the client will do.
 - Syatt against Layne and Aragon on how long a client should track food. Syatt is the only fitness seat that owns the coaching business: pricing, getting clients, and keeping them.
 
+## Personal board
+
+Seats on the `personal` board in `roster.json`. They argue life and self-management decisions: habits, discipline, health, planning, money in your own life, and how you spend your time.
+
+| Seat | Agent | Pillar | The question it owns | Brain |
+|---|---|---|---|---|
+| Clear | `council-clear` | Habits and systems | What is the smallest habit that makes this automatic, and who does it make you? | `brains/james-clear/` |
+
+- Clear (make it easy, never miss twice, systems over goals) against Goggins (embrace the suffering, go harder).
+- Clear (identity and schedules) against the 12 Week Year (short deadlines and weekly scored urgency). He pushes Huberman to standardize a routine before optimizing it.
+
 If Round 1 comes back unanimous, the Chair should be suspicious and press the seat whose pillar is most at risk in Round 2.
