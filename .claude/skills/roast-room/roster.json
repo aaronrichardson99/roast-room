@@ -4,7 +4,7 @@
   "boards": {
     "business": ["hormozi", "sanchez", "bezos", "musk", "buffett"],
     "personal": [],
-    "fitness": ["nuckols", "israetel"]
+    "fitness": ["nuckols", "israetel", "helms"]
   },
   "seats": [
     { "key": "bezos", "name": "Jeff Bezos", "short": "Bezos", "initials": "JB", "slug": "jeff-bezos", "pillar": "Strategy and decisions", "question": "Is this the right bet, and how reversible is it?", "dimension": "Strategic fit and reversibility", "color": "#e8a33d" },
@@ -20,6 +20,7 @@
     { "key": "leila", "name": "Leila Hormozi", "short": "Leila", "initials": "LH", "slug": "leila-hormozi", "pillar": "Leadership and scaling teams", "question": "Can your team and your leadership carry this, and who has to change?", "dimension": "Leadership and team capacity", "color": "#8fbf3a" },
     { "key": "musk", "name": "Elon Musk", "short": "Elon", "initials": "EM", "slug": "elon-musk", "pillar": "First principles and execution speed", "question": "What is the real constraint here, and can we cut steps and build it faster?", "dimension": "Real constraints and execution speed", "color": "#c0392b" },
     { "key": "nuckols", "name": "Greg Nuckols", "short": "Nuckols", "initials": "GN", "slug": "greg-nuckols", "pillar": "Reading the research", "question": "Is that claim actually supported, and does the effect matter in practice?", "dimension": "Practical significance of the evidence", "color": "#5b7cfa" },
-    { "key": "israetel", "name": "Mike Israetel", "short": "Israetel", "initials": "MI", "slug": "mike-israetel", "pillar": "Volume, recovery, and periodization", "question": "Is the training dose right: enough stimulus, with fatigue you can recover from?", "dimension": "Stimulus to fatigue and volume landmarks", "color": "#ef7d32" }
+    { "key": "israetel", "name": "Mike Israetel", "short": "Israetel", "initials": "MI", "slug": "mike-israetel", "pillar": "Volume, recovery, and periodization", "question": "Is the training dose right: enough stimulus, with fatigue you can recover from?", "dimension": "Stimulus to fatigue and volume landmarks", "color": "#ef7d32" },
+    { "key": "helms", "name": "Eric Helms", "short": "Helms", "initials": "EH", "slug": "eric-helms", "pillar": "Evidence-based priorities", "question": "Does this follow the things that actually drive results, in the right order?", "dimension": "Priority order and adherence", "color": "#2fa4d6" }
   ]
 }

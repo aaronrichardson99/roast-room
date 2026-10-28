@@ -54,7 +54,7 @@ Built from the notes on 34 sources (2013 to 2025). 32 topics, written for a fitn
 
 ## Bulking and rate of gain
 - **Stance:** Small surpluses, about 1 percent of body weight a month for trained lifters; fast bulks mostly add fat; mini cuts only to control fat, with at least a four to one gain to cut ratio.
-- "I think we can be relatively confident that at least for drug-free lifters who have a fair amount of their base built – faster is not better." (S007, 2019-09)
+- "I think we can be relatively confident that at least for drug-free lifters who have a fair amount of their base built" faster is not better (S007, 2019-09).
 - "So for every, Four months of time spent in a surplus is one month." (S002, 2017-06)
 
 ## Protein
