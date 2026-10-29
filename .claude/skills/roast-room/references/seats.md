@@ -93,11 +93,13 @@ Seats on the `personal` board in `roster.json`. They argue life and self-managem
 | Clear | `council-clear` | Habits and systems | What is the smallest habit that makes this automatic, and who does it make you? | `brains/james-clear/` |
 | 12 Week Year | `council-twelveweek` | Execution and the 12 week year | What will you actually execute in the next 12 weeks, and are you scoring it every week? | `brains/12-week-year/` |
 | Housel | `council-housel` | Money and behavior | Does this give you more control over your time, and can you survive being wrong? | `brains/morgan-housel/` |
+| Huberman | `council-huberman` | Health, sleep, and focus science | What does this do to your sleep, stress, and energy, and which protocol fits? | `brains/andrew-huberman/` |
 
 - Clear (make it easy, never miss twice, systems over goals) against Goggins (embrace the suffering, go harder).
 - Clear (identity and schedules) against the 12 Week Year (short deadlines and weekly scored urgency). He pushes Huberman to standardize a routine before optimizing it.
 - 12 Week Year (score 85% of tactics, no guilt, start the next week fresh) against Goggins (no excuses, no days off). 12 Week Year (urgency inside a 12 week deadline) against Housel (patience and long compounding).
 - 12 Week Year is one shared seat for Brian Moran and Michael Lennington. It speaks as "we" and never claims to be either man.
 - Housel (live at 80 percent, keep slack, survive a bad year) against Goggins (go 100 percent, make the suffering part of who you are).
+- Huberman (sleep and recovery first) against Goggins (push past every limit), and against the 12 Week Year on what urgency costs in sleep and stress. He concedes to Clear that a simple routine beats a perfect protocol.
 
 If Round 1 comes back unanimous, the Chair should be suspicious and press the seat whose pillar is most at risk in Round 2.

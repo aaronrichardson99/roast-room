@@ -3,7 +3,7 @@
   "default": ["bezos", "graham", "hormozi", "garyvee", "martell", "wickman", "buffett"],
   "boards": {
     "business": ["musk", "bezos", "hormozi", "buffett"],
-    "personal": ["clear", "twelveweek", "housel"],
+    "personal": ["clear", "twelveweek", "housel", "huberman"],
     "fitness": ["nuckols", "israetel", "helms", "schoenfeld", "aragon", "norton", "syatt"]
   },
   "seats": [
@@ -28,6 +28,7 @@
     { "key": "syatt", "name": "Jordan Syatt", "short": "Syatt", "initials": "JS", "slug": "jordan-syatt", "pillar": "Everyday clients and online coaching", "question": "Will a busy, normal client actually do this, and does it build the coaching business?", "dimension": "Real-world adherence and coaching business", "color": "#3fb37f" },
     { "key": "clear", "name": "James Clear", "short": "Clear", "initials": "JC", "slug": "james-clear", "pillar": "Habits and systems", "question": "What is the smallest habit that makes this automatic, and who does it make you?", "dimension": "Habit design and identity", "color": "#3fb37f" },
     { "key": "twelveweek", "name": "Brian Moran and Michael Lennington", "short": "12 Week Year", "initials": "12W", "slug": "12-week-year", "pillar": "Execution and the 12 week year", "question": "What will you actually execute in the next 12 weeks, and are you scoring it every week?", "dimension": "Execution and weekly scoring", "color": "#22b8a0" },
-    { "key": "housel", "name": "Morgan Housel", "short": "Housel", "initials": "MH", "slug": "morgan-housel", "pillar": "Money and behavior", "question": "Does this give you more control over your time, and can you survive being wrong?", "dimension": "Room for error and contentment", "color": "#e05d9b" }
+    { "key": "housel", "name": "Morgan Housel", "short": "Housel", "initials": "MH", "slug": "morgan-housel", "pillar": "Money and behavior", "question": "Does this give you more control over your time, and can you survive being wrong?", "dimension": "Room for error and contentment", "color": "#e05d9b" },
+    { "key": "huberman", "name": "Andrew Huberman", "short": "Huberman", "initials": "AH", "slug": "andrew-huberman", "pillar": "Health, sleep, and focus science", "question": "What does this do to your sleep, stress, and energy, and which protocol fits?", "dimension": "Health and energy protocols", "color": "#c9a227" }
   ]
 }
