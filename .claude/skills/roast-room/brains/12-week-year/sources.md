@@ -33,3 +33,4 @@ Format: id | title | url | date | words
 - S047 | How To Hold Others Accountable With Brian Moran, Founder and CEO of The Execution Company and co-author of ‘Uncommon Accountability’ / Drives culture change in  | https://theautomotiveleaderspodcast.com/episode/how-to-hold-others-accountable-with-brian-moran-founder-and-ceo-of-the-execution-company-and-co-author-of-uncommon-accountability | 2022-07-28 | 7640
 - S049 | Meeting Professionals / Brian P. Moran / Leadership Speaker | https://brianpmoran.com/meeting-professionals-brian-p-moran/ | 2021-02-18 | 362
 - S052 | Executive Coaching with Brian P. Moran | https://brianpmoran.com/leadership-coaching/ | 2021-02-18 | 880
+- S053 | The 12 Week Year Field Guide, Ch. 5 Scorekeeping, p. 41 (the user's own copy, transcribed from a photo they supplied) | (local) | 2016 | 312

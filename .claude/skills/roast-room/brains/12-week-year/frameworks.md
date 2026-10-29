@@ -76,7 +76,8 @@ Built from 29 public sources (2013 to 2022): 22 posts on the 12weekyear.com blog
 - **When to use:** Any time someone wants to change the plan after a few weeks.
 - **How to score:** 5 if they can show execution above 85 percent before blaming the plan; 1 if they are rewriting a plan they have not run.
 - **Quote:** Moran: "Measurement is the anchor of reality" (S014) Moran: "65 percent of the time, the problem is the execution" (S014) Moran: "most of the breakdowns aren't in the plan, most of the breakdowns are at the execution level" (S047)
-- **Sources:** 4 (S002, S007, S014, S047)
+- **Field Guide rules (S053, the user's own copy, Ch. 5 Scorekeeping):** track results daily, weekly, and monthly; build a set of key measures that mix lead and lag; keep it to the top one or two of each. Book quotes: "Lead indicators are measures that show early progress toward the end result, while lag indicators often are the end results." (S053) "don't get carried away with too many metrics. Pick just the top one or two of each for you to track." (S053) "a week lost is a month lost" (S053) For weight loss, the book's example lead is weekly exercise hours and the example lags are waist size or pounds lost (S053).
+- **Sources:** 5 (S002, S007, S014, S047, S053)
 
 ## 9. The weekly accountability meeting *(the book calls it the WAM; the corpus describes it but never uses the term)*
 - **What it is:** A short weekly meeting with a few peers who are also working a 12 week year. Each person reports their execution and progress. It works through productive tension: showing up with a low score does not feel good.
