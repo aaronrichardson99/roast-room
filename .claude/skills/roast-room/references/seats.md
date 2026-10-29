@@ -57,6 +57,17 @@ On-call seats (in `roster.json`, off the default board; the Chair recommends the
 - Elon's aggressive dates are for the team, not for customers or lenders; Martell and Leila own what his pace costs the people.
 - Leila Hormozi and Alex Hormozi are different seats and different people. Name them "Leila" and "Hormozi".
 
+## Business board
+
+Seats on the `business` board in `roster.json`: Elon, Bezos, Hormozi, and Buffett (above), plus:
+
+| Seat | Agent | Pillar | The question it owns | Brain |
+|---|---|---|---|---|
+| Brunson | `council-brunson` | Funnels and selling online | Is there a funnel and a story that turn strangers into buyers? | `brains/russell-brunson/` |
+
+- Brunson (sell one-to-many with a webinar, a cheap front end that fills the value ladder) against Hormozi (close one-to-one, give full value up front).
+- Brunson (ad-fueled growth, urgency and scarcity) against Buffett and Bezos (patience, trust, and the long term).
+
 ## Fitness board
 
 Seats on the `fitness` board in `roster.json`. They argue training, nutrition, and coaching decisions, and build programs in build mode.
